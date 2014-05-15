@@ -1,0 +1,18 @@
+[
+    {
+        "ClassA": "src/personnel/Research.java",
+        "ClassB": "src/payroll/Research.java",
+        "MergeAllFieldsByName": true,
+        "MethodNamesToMerge": [
+            "check",
+            "print",
+            "test"
+        ],
+        "MethodNamesToOverride": [
+            {"name": "ClassA"},
+            {"toString": "ClassA"},
+            {"pay": "ClassB"},
+            {"position": "ClassB"}
+        ]
+    }
+]
